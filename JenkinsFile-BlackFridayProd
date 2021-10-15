@@ -32,9 +32,9 @@ node {
              input message: 'please verify and approve'
          }
      }
-     /*
+     
      stage('8-Prod-Deploy') {
         deploy adapters: [tomcat9(credentialsId: '4e24f897-98df-4f6e-84e9-1e0298572c9f', path: '', url: 'http://ec2-18-222-203-96.us-east-2.compute.amazonaws.com:8080/')], contextPath: null, war: 'target/*.war' 
      }
-     */
+     
    } 
